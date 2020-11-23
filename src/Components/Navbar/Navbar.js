@@ -36,13 +36,13 @@ const  Navbar=()=> {
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/services" className="nav-links" onClick={closeMobileMenu} >
-                              خدمات
+                            <Link to="/tourism" className="nav-links" onClick={closeMobileMenu} >
+                              گردشگری
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link to="/products" className="nav-links" onClick={closeMobileMenu} >
-                              محصولات
+                            <Link to="/tour" className="nav-links" onClick={closeMobileMenu} >
+                              تور
                             </Link>
                         </li>
                         <li>

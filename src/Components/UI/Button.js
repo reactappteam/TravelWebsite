@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import './Button.css'
-const STYLES = ['btn--primary','btn--outline','btn--special'];
+const STYLES = ['btn--primary','btn--outline','btn--special','btn--search','btn--search--place','btn--tour'];
 const SIZES = ['btn--medium', 'btn--large']
 const Button = (props)=>{
     const {children,type,clickHandler,buttonStyle,buttonSize} = props
